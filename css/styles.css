@@ -292,3 +292,30 @@ button:focus,
   animation: 50s cloud-move-reverse infinite alternate linear;
 }
 
+/* ----------------------2020-12-27 https://css-tricks.com/almanac/properties/a/animation/----*/
+.element1 {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: var(--primary-color);
+  animation-name: stretch;
+  animation-duration: 3s; 
+  animation-timing-function: ease-out; 
+  animation-delay: 0;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-fill-mode: none;
+  animation-play-state: running;
+}
+
+@keyframes stretch {
+  0% {
+    transform: scale(.3);
+    background-color: var(--primary-color);
+    border-radius: 100%;
+  }
+  100% {
+    transform: scale(1.5);
+    background-color: var(--secondary-color);
+  }
+}
