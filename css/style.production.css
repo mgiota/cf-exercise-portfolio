@@ -371,3 +371,54 @@ button:focus,
           animation: 50s cloud-move-reverse infinite alternate linear;
 }
 
+/* ----------------------2020-12-27 https://css-tricks.com/almanac/properties/a/animation/----*/
+.element1 {
+  height: 100px;
+  width: 100px;
+  margin: 0 auto;
+  background-color: #e66771;
+  -webkit-animation-name: stretch;
+          animation-name: stretch;
+  -webkit-animation-duration: 3s;
+          animation-duration: 3s; 
+  -webkit-animation-timing-function: ease-out; 
+          animation-timing-function: ease-out; 
+  -webkit-animation-delay: 0; 
+          animation-delay: 0;
+  -webkit-animation-direction: alternate;
+          animation-direction: alternate;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-fill-mode: none;
+          animation-fill-mode: none;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+}
+
+@-webkit-keyframes stretch {
+  0% {
+    -webkit-transform: scale(.3);
+            transform: scale(.3);
+    background-color: #e66771;
+    border-radius: 100%;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    background-color: gainsboro;
+  }
+}
+
+@keyframes stretch {
+  0% {
+    -webkit-transform: scale(.3);
+            transform: scale(.3);
+    background-color: #e66771;
+    border-radius: 100%;
+  }
+  100% {
+    -webkit-transform: scale(1.5);
+            transform: scale(1.5);
+    background-color: gainsboro;
+  }
+}
