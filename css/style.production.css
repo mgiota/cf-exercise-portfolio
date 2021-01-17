@@ -42,8 +42,8 @@ h3 {
 }
 
 div {
-  padding: 10px; 
-  margin: 10px; 
+  padding: 10px;
+  margin: 10px;
 }
 
 a {
@@ -94,7 +94,7 @@ button  {
   transition: 0.2s opacity;
 }
 
-button:hover, 
+button:hover,
 button:focus,
 .button:hover,
 .button:focus  {
@@ -158,7 +158,7 @@ button:focus,
   display: flex;
   width: 100%;
   padding: 20px;
-  border: 1px solid rgba(218, 165, 32, 0.5); 
+  border: 1px solid rgba(218, 165, 32, 0.5);
 }
 
 .page-header__item {
@@ -303,11 +303,11 @@ button:focus,
   -webkit-animation-name: stretch;
           animation-name: stretch;
   -webkit-animation-duration: 5s;
-          animation-duration: 5s; 
-  -webkit-animation-timing-function: ease-out; 
-          animation-timing-function: ease-out; 
-  -webkit-animation-delay: 0; 
-          animation-delay: 0;
+          animation-duration: 5s;
+  -webkit-animation-timing-function: ease-out;
+          animation-timing-function: ease-out;
+  -webkit-animation-delay: 0s;
+          animation-delay: 0s;
   -webkit-animation-direction: alternate;
           animation-direction: alternate;
   -webkit-animation-iteration-count: infinite;
