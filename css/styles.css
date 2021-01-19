@@ -111,15 +111,14 @@ button:focus,
 }
 
 .profile {
-  /* display: flex;
+  display: flex;
   justify-content: center;
-  align-items: center; */
+  align-items: center;
   max-width: 900px;
   margin: 0 auto;
   padding: 20px 0;
   min-height: 80vh;
-  display: grid;
-  grid-template-columns: 1fr 2fr;
+
 }
 
 .profile__text {
