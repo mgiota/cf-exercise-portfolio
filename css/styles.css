@@ -111,9 +111,12 @@ button:focus,
 }
 
 .profile {
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
   max-width: 900px;
   margin: 0 auto;
-  padding-top: 120px;
+  padding: 20px 0;
   min-height: 80vh;
   display: grid;
   grid-template-columns: 1fr 2fr;
