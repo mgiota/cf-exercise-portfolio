@@ -207,7 +207,8 @@ button:focus,
     cursor: pointer;
   }
 
-  .grid__item h2:hover {
+  .grid__item h2:hover,
+  .grid__item:hover h2 {
     color: var(--secondary-color);
   }
 }
